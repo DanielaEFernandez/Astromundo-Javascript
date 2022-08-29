@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #eaeaea;
+  color: #333;
+  overflow-x: hidden;
+  margin: auto;
+
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  line-height: 2;
+}
+
+img {
+  width: 100%;
+}
+
+@import "header";
+@import "main";
+@import "media";
+@import "horoscope";

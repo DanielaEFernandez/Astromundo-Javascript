@@ -1,0 +1,36 @@
+header {
+  height: 100vh;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url("../images/astrology-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  letter-spacing: 4px;
+
+  h1 {
+    text-shadow: 2px 2px #4b34ae;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+
+    &::first-letter {
+      font-size: 5rem;
+    }
+  }
+
+  a {
+    color: #fff;
+    background-color: rgba(143, 35, 179, 0.3);
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid #444;
+  }
+}

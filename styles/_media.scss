@@ -1,0 +1,72 @@
+@media(min-width: 500px) {
+  .zodiac-container {
+    .zodiac-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 800px) {
+  .zodiac-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  .zodiac-name {
+    display: flex;
+    justify-content: center;
+
+    h3 {
+      margin-right: 0.2rem;
+    }
+  }
+
+  .zodiac-stats {
+    p {
+      line-height: 3.2;
+    }
+  }
+}
+
+
+@media (min-width: 900px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    align-items: center;
+
+    &:nth-child(2) {
+      .card-img {
+        order: 2;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .main-content {
+    max-width: 80%;
+  }
+
+  .zodiac-container {
+
+    .zodiac-stats {
+      p {
+        line-height: 3.5;
+        font-size: 3rem;
+      }
+    }
+  }
+
+
+}

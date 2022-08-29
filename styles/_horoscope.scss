@@ -1,0 +1,130 @@
+.option-container {
+  max-width: 90%;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+label {
+  background-color: purple;
+  padding: 0.5rem;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0 auto 0.5rem;
+  display: block;
+  width: 140px;
+}
+
+select {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  padding: 0.2rem 1rem;
+  margin: auto;
+  text-align: center;
+  background-color: purple;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.zodiac-container {
+  margin: 3rem auto;
+  max-width: 90%;
+  text-align: center;
+
+  img {
+    border: 2px solid gold;
+    margin-bottom: 2rem;
+    animation: entrance 0.3s ease-in;
+  }
+
+  .zodiac-traits {
+    margin-bottom: 2rem;
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+
+.zodiac-personality {
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'PT Serif',
+      serif;
+
+    &::first-letter {
+      font-size: 3.5rem;
+      color: purple;
+    }
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+}
+
+.zodiac-name {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'PT Serif',
+    serif;
+  text-align: center;
+  animation: fade-in 0.3s ease-in;
+
+  img {
+    border: none;
+    width: 40px;
+  }
+
+  h3 {
+    &::first-letter {
+      font-size: 2.5rem;
+      color: purple;
+    }
+  }
+
+}
+
+.btn {
+  padding: 0.4rem;
+  background-color: purple;
+  color: #fff;
+  display: block;
+  margin: 0.5rem auto;
+  display: inline-block;
+  width: 145px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.zodiac-stats {
+  animation: fade-in 0.3s ease-in;
+}
+
+
+
+@keyframes fade-in {
+  from {
+    transform: translateX(600px)
+  }
+
+  to {
+    transform: translateX(0px)
+  }
+}
+
+@keyframes entrance {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
