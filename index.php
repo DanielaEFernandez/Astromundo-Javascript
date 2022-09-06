@@ -7,12 +7,9 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:700&display=swap" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css"/>
-    <script src="js/index.js"></script>
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
-   <!--JS for this webapp-->
-  <script src="js/index.js"></script>
   <!--lodash-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js"></script>
@@ -154,6 +151,16 @@
             </div>
         </div>
     </form>
+   <div class="container my-5 text-center">
+      <button class="btn btn-danger w-100" onclick="traer()">Consulta Con un Guia Especializado!!!</button>
+      <div class="mt-5" id=contenido>
+
+      </div>  
+
+  
+      </div>  
+    </div>
+    <script src="fetchAPI.js"></script>
     <script src="app.js"></script>
     <script src="tarot.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
